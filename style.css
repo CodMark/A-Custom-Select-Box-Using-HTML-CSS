@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #383a40;
+}
+select {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 252px;
+    padding: 18px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    background-color: #18191c;
+    color: #ffffff;
+    border: 6px solid #18191c;
+    border-radius: 21px;
+    background-image: url('./arrow-down-sign-to-navigate.png');
+    background-repeat: no-repeat;
+    background-size: 21px;
+    background-position: 202px 20.5px;
+    outline: none;
+    box-shadow: 0 0 20px rgb(20 20 30 / 25%);
+}
+select::-ms-expand {
+    display: none;
+}
+select option {
+    background-color: #151618;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6e6e6e;
+}
+.selected {
+    display: none;
+}
